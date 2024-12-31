@@ -15,7 +15,7 @@ run `python3 main.py`
 
 Play some music via platform of your choice.
 
-[^0]: As we use `system_profiler SPBluetoothDataType` and set the volume via AppleScript. Both of these would be simple to replace on other systems if wanted.
+[^0]: As we use `system_profiler SPBluetoothDataType` to get bluetooth info and set the volume via AppleScript. Both of these would be simple to replace on other systems if wanted.
 
 ## Config
 
