@@ -4,12 +4,15 @@ For when you're playing music on a speaker and wandering around, so need loud vo
 
 ## Usage
 
+Requires MacOS [^0].
+
 Connect your phone to your laptop's bluetooth.
 
 Set phone bluetooth name under `# config` in `main.py`.
 
 run `python3 main.py`
 
+[^0]: As we use `system_profiler SPBluetoothDataType` and set the volume via AppleScript. Both of these would be simple to replace on other systems if wanted.
 
 ## Config
 
